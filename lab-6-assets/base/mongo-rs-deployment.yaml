@@ -51,7 +51,7 @@ spec:
         - name: PRIMARY_NODE
           value: "mongo-cluster1.apps.weixinyucluster.bluecat.ltd:443"
         - name: REPLICA_MEMBERS
-          value: "mongo-cluster1.apps.weixinyucluster.bluecat.ltd:443,mongo-cluster2.apps.weixinyucluster2.bluecat.ltd:443,:443"
+          value: "mongo-cluster1.apps.weixinyucluster.bluecat.ltd:443,mongo-cluster2.apps.weixinyucluster2.bluecat.ltd:443,mongo-cluster3.:443"
         volumeMounts:
         - mountPath: /data/db
           name: mongodb-data
