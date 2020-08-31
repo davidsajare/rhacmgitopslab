@@ -4,4 +4,4 @@ metadata:
   name: mongo
   namespace: mongo
 spec:
-  host: 
+  host: mongo-cluster3.apps.weixinyucluster4.bluecat.ltd
